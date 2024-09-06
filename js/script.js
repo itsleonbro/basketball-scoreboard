@@ -1,5 +1,6 @@
 const scoreHome = document.getElementById("score-home");
 const scoreGuest = document.getElementById("score-guest");
+const homeDisplay = document.getElementById("home-score-display");
 
 const addHomeOne = () => {
   scoreHome.textContent = parseInt(scoreHome.textContent) + 1;
