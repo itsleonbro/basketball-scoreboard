@@ -38,7 +38,6 @@ p {
   background: var(--main-color);
   gap: 30px;
   border-radius: 10px;
-
 }
 
 .home-side,
@@ -47,7 +46,8 @@ p {
   flex-direction: column;
 }
 
-.home-side h3, .guest-side h3 {
+.home-side h3,
+.guest-side h3 {
   display: flex;
   justify-content: center;
 }
