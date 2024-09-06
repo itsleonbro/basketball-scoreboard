@@ -1,0 +1,22 @@
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+.env.*
+
+# Editor directories and files
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+
+# Other files to ignore
+*.sass-cache
+*.cache
+*.tmp
+*.pid
+*.seed
