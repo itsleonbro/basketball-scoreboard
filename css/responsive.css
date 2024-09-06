@@ -1,0 +1,131 @@
+/* tablet */
+@media (max-width: 600px) {
+  .board {
+    font-size: 34px;
+  }
+
+  .board .container {
+    width: 431px;
+    height: 290px;
+    gap: 15px;
+  }
+
+  .score-count {
+    width: 155px;
+    height: 120px;
+    margin: 20px 0px;
+  }
+
+  .score-count p {
+    font-size: 80px;
+  }
+
+  .increment-btns button {
+    font-size: 17px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .game-btns button {
+    margin: 15px 0;
+  }
+}
+
+/* large mobiles */
+@media (max-width: 425px) {
+  .board {
+    font-size: 30px;
+  }
+
+  .board .container {
+    width: 375px;
+    height: 285px;
+    gap: 15px;
+  }
+
+  .score-count {
+    width: 124px;
+    height: 97px;
+    margin: 20px 0px;
+  }
+
+  .score-count p {
+    font-size: 72px;
+  }
+
+  .increment-btns button {
+    font-size: 14px;
+    width: 35px;
+    height: 35px;
+  }
+
+  .game-btns button {
+    margin: 15px 0;
+  }
+}
+
+/* medium mobiles */
+@media (max-width: 380px) {
+  .board {
+    font-size: 27px;
+  }
+
+  .board .container {
+    width: 340px;
+    height: 285px;
+    gap: 15px;
+  }
+
+  .score-count {
+    width: 124px;
+    height: 97px;
+    margin: 20px 0px;
+  }
+
+  .score-count p {
+    font-size: 65px;
+  }
+
+  .increment-btns button {
+    font-size: 13px;
+    width: 32px;
+    height: 32px;
+  }
+
+  .game-btns button {
+    margin: 15px 0;
+  }
+}
+
+/* small mobiles */
+@media (max-width: 320px) {
+  .board {
+    font-size: 24px;
+  }
+
+  .board .container {
+    width: 306px;
+    height: 256px;
+    gap: 10px;
+  }
+
+  .score-count {
+    width: 112px;
+    height: 88px;
+    margin: 20px 0px;
+  }
+
+  .score-count p {
+    font-size: 60px;
+  }
+
+  .increment-btns button {
+    font-size: 13px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .game-btns button {
+    margin: 15px 0;
+  }
+}
