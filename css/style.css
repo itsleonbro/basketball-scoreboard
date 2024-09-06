@@ -98,7 +98,7 @@ p {
 }
 
 .increment-btns button:hover {
-  font-size: 19px;
+  color: var(--pink);
   background-color: rgba(0, 0, 0, 0.2);
 }
 
