@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import url("https://fonts.cdnfonts.com/css/cursed-timer-ulil");
+
+:root {
+  --main-color: #0c4a6e;
+  --black: #080001;
+  --pink: #f94f6d;
+  --light-blue: #9aabd8;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  color: #fff;
+}
+
+h3,
+p {
+  margin: 0;
+}
+
+.board {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background: #e1b563;
+}
+
+.board .container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 575px;
+  height: 385px;
+  background: var(--main-color);
+  gap: 30px;
+  border-radius: 10px;
+
+}
+
+.home-side,
+.guest-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-side h3, .guest-side h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.score-count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--black);
+  width: 155px;
+  height: 120px;
+  border-radius: 10px;
+  margin: 20px 0px;
+}
+
+.score-count p {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-size: 90px;
+  color: var(--pink);
+}
+
+.increment-btns button {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-size: 18px;
+  color: var(--light-blue);
+  width: 45px;
+  height: 45px;
+  border: 2px var(--light-blue) solid;
+  border-radius: 5px;
+  background: none;
+}
