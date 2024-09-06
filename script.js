@@ -24,3 +24,8 @@ const addGuestTwo = () => {
 const addGuestThree = () => {
   scoreGuest.textContent = parseInt(scoreGuest.textContent) + 3;
 };
+
+const newGame = () => {
+  scoreHome.textContent = 0;
+  scoreGuest.textContent = 0;
+};
