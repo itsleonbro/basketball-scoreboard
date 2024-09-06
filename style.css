@@ -78,4 +78,11 @@ p {
   border: 2px var(--light-blue) solid;
   border-radius: 5px;
   background: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.increment-btns button:hover {
+  font-size: 19px;
+  background-color: rgba(0, 0, 0, 0.2);
 }
