@@ -93,10 +93,14 @@ p {
   font-size: 18px;
   color: var(--light-blue);
   height: 45px;
+  width: 150px;
   border: none;
-  padding: 0 30px;
   border-radius: 5px;
   background: var(--main-color);
   cursor: pointer;
   transition: 0.2s ease;
+}
+
+.game-btns button:hover {
+  font-size: 18.5px;
 }
