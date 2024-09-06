@@ -7,6 +7,12 @@
   --black: #080001;
   --pink: #f94f6d;
   --light-blue: #9aabd8;
+  --font-grey-color: #4b5563;
+  --teal-color: #427d9d;
+}
+
+* {
+  overflow-x: hidden;
 }
 
 body {
@@ -103,4 +109,33 @@ p {
 
 .game-btns button:hover {
   font-size: 18.5px;
+}
+
+/* footer */
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+footer .handles {
+  margin: 30px 0px;
+}
+
+footer .handles i {
+  color: var(--font-grey-color);
+  font-size: 32px;
+  padding: 0 15px 0 0;
+  transition: 0.3s ease;
+}
+
+footer .handles a {
+  text-decoration: none;
+}
+
+footer .handles i:hover {
+  color: var(--teal-color);
 }
