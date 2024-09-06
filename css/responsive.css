@@ -4,6 +4,11 @@
     font-size: 34px;
   }
 
+  .emojies {
+    gap: 200px;
+    width: 431px;
+  }
+
   .board .container {
     width: 431px;
     height: 290px;
@@ -35,6 +40,11 @@
 @media (max-width: 440px) {
   .board {
     font-size: 30px;
+  }
+
+  .emojies {
+    gap: 170px;
+    width: 375px;
   }
 
   .board .container {
