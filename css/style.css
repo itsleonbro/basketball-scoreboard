@@ -36,6 +36,13 @@ p {
   background: #e1b563;
 }
 
+.emojies {
+  display: flex;
+  justify-content: center;
+  gap: 250px;
+  width: 575px;
+}
+
 .board .container {
   display: flex;
   justify-content: space-evenly;
