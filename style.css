@@ -23,6 +23,7 @@ p {
 .board {
   font-size: 40px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   height: 100vh;
   align-items: center;
@@ -85,4 +86,17 @@ p {
 .increment-btns button:hover {
   font-size: 19px;
   background-color: rgba(0, 0, 0, 0.2);
+}
+
+.game-btns button {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-size: 18px;
+  color: var(--light-blue);
+  height: 45px;
+  border: none;
+  padding: 0 30px;
+  border-radius: 5px;
+  background: var(--main-color);
+  cursor: pointer;
+  transition: 0.2s ease;
 }
