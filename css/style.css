@@ -51,6 +51,7 @@ p {
 .guest-side {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .home-side h3,
