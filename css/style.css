@@ -33,7 +33,7 @@ p {
   justify-content: center;
   height: 100vh;
   align-items: center;
-  background: url(../assets/basketball-bg.jpg);
+  background: url(../assets/basketball-bg.webp);
   background-size: cover;
   background-position: bottom center;
 }
